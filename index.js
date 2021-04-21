@@ -57,6 +57,7 @@ app.get('/', function (req, res) {
     return;
   }
 
+  
   // Substitute application_id wherever /%application%/ token is present in device configuration
   var application_id = "sampleapp";
   device_configuration = device_configuration.replace(/%application%/g, application_id);
