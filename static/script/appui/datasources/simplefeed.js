@@ -35,33 +35,33 @@ define(
           [
             {
               "id":"1",
-              "title":"Apple",
-              "img" : "static/img/fruit/apple.png"
+              "title":"Drishyam",
+              "img" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201901/drishyam-story_647_080215020436.jpeg?jo_of8z8P6vbsR7VxKUo_ZZTP7E9cnxj&size=770:433"
             },
             {
               "id":"2",
-              "title":"Banana",
-              "img" : "static/img/fruit/banana.png"
+              "title":"Drishyam2",
+              "img" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202102/Drishyam_2_1200x768.jpeg?4r1AsjDVQUERBCTYdSCFQgf8XW25tXbr&size=770:433"
             },
             {
               "id":"3",
-              "title":"Grapes",
-              "img" : "static/img/fruit/grapes.png"
+              "title":"Lagaan",
+              "img" : "https://images.desimartini.com/media/mobile/mobile_6368_lagaan_xlg.jpg"
             },
             {
               "id":"4",
-              "title":"Orange",
-              "img" : "static/img/fruit/orange.png"
+              "title":"Kabir singh",
+              "img" : "https://5.imimg.com/data5/CO/IP/MQ/SELLER-30220222/bollywood-wall-poster-500x500.jpg"
             },
             {
               "id":"5",
-              "title":"Peach",
-              "img" : "static/img/fruit/peach.png"
+              "title":"Ddlj",
+              "img" : "https://img.theculturetrip.com/450x/smart/wp-content/uploads/2017/08/ddlj-pinterest.jpg"
             },
             {
               "id":"6",
-              "title":"Pear",
-              "img" : "static/img/fruit/pear.png"
+              "title":"Kahani",
+              "img" : "https://i.pinimg.com/236x/49/67/98/496798451707d17f7d220d12157b1e59--bollywood-posters-movie-posters.jpg"
             }
           ]
         );

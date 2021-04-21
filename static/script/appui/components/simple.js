@@ -47,31 +47,20 @@ define(
         init.base.call(this, "simplecomponent");
 
         // Add the labels to the component
-        helloWorldLabel = new Label("helloWorldLabel", "Hello World");
+        helloWorldLabel = new Label("helloWorldLabel", "Bufferzero");
         this.appendChildWidget(helloWorldLabel);
 
-        welcomeLabel = new Label("welcomeLabel", "Welcome to your first TAL application!");
+        welcomeLabel = new Label("welcomeLabel", "This is my first example on carausel");
         this.appendChildWidget(welcomeLabel);
 
         var newCarouselButton = this._createCarouselButton();
 
-        var playerButton = new Button();
-        playerButton.addEventListener("select", function(evt){
-          self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/simplevideocomponent");
-        });
-        playerButton.appendChildWidget(new Label("Simple Video Player Example"));
-
-        var horizontalProgressButton = new Button();
-        horizontalProgressButton.appendChildWidget(new Label("Horizontal Progress Bar Example"));
-        horizontalProgressButton.addEventListener("select", function(evt) {
-          self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/horizontalprogresscomponent");
-        });
+        
 
         // Create a vertical list and append the buttons to navigate within the list
         verticalListMenu = new VerticalList("mainMenuList");
         verticalListMenu.appendChildWidget(newCarouselButton);
-        verticalListMenu.appendChildWidget(playerButton);
-        verticalListMenu.appendChildWidget(horizontalProgressButton);
+        
         this.appendChildWidget(verticalListMenu);
 
         // calls Application.ready() the first time the component is shown
